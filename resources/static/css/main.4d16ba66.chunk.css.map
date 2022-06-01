@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/ui/MockModalManager.css","webpack://src/style.css"],"names":[],"mappings":"AAAA,cAAc,SAAU,CCAxB,SACE,wBAA2B,CAC3B,aACF","file":"main.4d16ba66.chunk.css","sourcesContent":[".modal-dialog{width:80%;}\n",".queryBg {\n  border: 1px solid lightgrey;\n  padding: .5rem\n}"]}
