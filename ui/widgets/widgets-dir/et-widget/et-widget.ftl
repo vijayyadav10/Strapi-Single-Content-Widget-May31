@@ -1,6 +1,6 @@
 <#assign wp=JspTaglibs["/aps-core"]>
 <script src="<@wp.resourceURL />list-content-widget/static/js/2.7e3c8ffb.chunk.js"></script>
-<script src="<@wp.resourceURL />list-content-widget/static/js/main.ee6a40df.chunk.js"></script>
+<script src="<@wp.resourceURL />list-content-widget/static/js/main.bf57bd8c.chunk.js"></script>
 <script src="<@wp.resourceURL />list-content-widget/static/js/runtime-main.0096342d.js"></script>
 <link href="<@wp.resourceURL />list-content-widget/static/css/main.45b4c4b3.chunk.css" rel="stylesheet">
 <#-- entando_resource_injection_point -->
@@ -9,5 +9,5 @@
 <@wp.currentWidget param="config" configParam="selectedContentName" var="configSelectedContentName" />
 <@wp.currentWidget param="config" configParam="contentIdAndTemplateId" var="configContentIdAndTemplateId" />
 <@wp.currentWidget param="config" configParam="saveQuery" var="configSaveQuery" />
-<@wp.currentWidget param="config" configParam="fieldSearchBy" var="configFieldSearchBy" />
-<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" searchField="${configFieldSearchBy}" saveQueryDetails="${configSaveQuery}" />
+<@wp.currentWidget param="config" configParam="colLabel" var="configColLabel" />
+<my-list-widget contentName="${configSelectedContentName}" contentIdsAndTemplateIds="${configContentIdAndTemplateId}" colLabelName="${configColLabel}" saveQueryDetails="${configSaveQuery}" />
